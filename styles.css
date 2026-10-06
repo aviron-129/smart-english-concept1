@@ -59,6 +59,9 @@ ul { list-style: none; }
 .hdr { padding: 24px 0; }
 .hdr .container { display: flex; align-items: center; justify-content: space-between; gap: 32px; }
 .logo { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+.logo-img { height: 60px; width: auto; display: block; }
+.logo-plate { align-self: flex-start; background: #fff; padding: 10px 16px; border-radius: 16px; }
+.logo-plate .logo-img { height: 44px; }
 .logo-mark { width: 44px; height: 44px; border-radius: 14px; background: var(--violet); color: var(--yellow); display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 800; }
 .nav { display: flex; gap: 36px; font-size: 16px; font-weight: 500; }
 .nav a.active { color: var(--violet); }
@@ -318,6 +321,8 @@ ul { list-style: none; }
   .nav, .hdr-phone { display: none; }
   .logo { font-size: 16px; gap: 8px; white-space: nowrap; }
   .logo-mark { width: 34px; height: 34px; border-radius: 11px; font-size: 17px; }
+  .logo-img { height: 38px; }
+  .logo-plate .logo-img { height: 38px; }
   .hdr-right { gap: 8px; }
   .hdr .btn-sm { height: 40px; padding: 0 14px; font-size: 13px; white-space: nowrap; }
   .burger { display: flex; width: 40px; height: 40px; border-radius: 12px; }
